@@ -1,0 +1,134 @@
+body{
+    margin: 100px 30%;
+}
+
+.container{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    border: 1px solid rgba(0, 0,0, 0.0);
+    position: relative;
+    height: 350px;
+}
+.section1{
+    text-align: center;
+    /* background-color: hsl(241, 69%, 58%); */
+    padding-top: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    position: absolute;
+    width: 50%;
+}
+.section2{
+    padding-left: 40px;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 5px 6px #bbb3bb;
+    margin-left: 260px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.result{
+    font-size: 15px;
+    color: hsl(241, 100%, 89%) ;
+}
+.p1{
+    font-size: 50px;
+    font-weight: 700;
+    color:  hsl(0, 0%, 100%);
+    
+}
+.p2{
+    font-size: 10px;
+    color: hsl(241, 86%, 78%) ;
+}
+.num{
+    border: 1px solid rgba(0,0,0,0.0);
+    border-radius: 100%;
+    margin-left: 26%;
+    margin-right: 28%;
+    margin-top: 20px;
+    height: 100px;
+    padding-top: 30px;
+    /* background-color: hsla(241, 78%, 55%, 0.815); */
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+.EP{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 75%;
+    padding: 8px;
+    margin-top: 12px;
+}
+.G1{
+    font-size: 20px;
+    color:  hsl(0, 0%, 100%);
+    padding-top: 10px;
+}
+.G2{
+    color: hsl(241, 100%, 89%);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.summ{
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);;
+}
+.img1{
+    height: 15px;
+    padding-right: 5px;
+    
+}
+.react{
+    font-size: 13px;
+}
+#EP1{
+    background-color: hsl(0, 100%, 97%);
+}
+
+#EP2{
+    background-color: hsl(0, 45%, 98%);
+}
+
+#EP3{
+    background-color: hsl(167, 100%, 92%);
+}
+
+#EP4{
+    background-color: hsl(247, 47%, 96%); 
+}
+
+
+#red{
+    color: hsl(0, 100%, 67%);
+}
+#yellow{
+    color: hsl(39, 100%, 56%);
+}
+#green{
+    color: hsl(166, 100%, 37%);
+}
+#vis{
+    color: hsl(234, 85%, 45%);
+}
+.mac1{
+    font-weight: 800;
+    font-size: 13px;
+}
+.mac2{
+    color: hsl(241, 100%, 89%);
+}
+.butt{
+    width: 82%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: #ffff;
+}
